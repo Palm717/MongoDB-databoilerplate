@@ -1,0 +1,17 @@
+{
+  "name": "fakermongo",
+  "version": "1.0.0",
+  "description": "boilerplate for fake data for a mongo db",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "rpal",
+  "license": "MIT",
+  "dependencies": {
+    "@faker-js/faker": "^8.0.1",
+    "dotenv": "^16.0.3",
+    "mongodb": "^5.5.0"
+  }
+}
